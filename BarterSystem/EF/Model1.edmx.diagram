@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c9b5c54e30fc4c029c20367ba95e585e" Name="Diagram1">
+        <EntityTypeShape EntityType="DiplomModel.Chat" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DiplomModel.City" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DiplomModel.ImageProduct" Width="1.5" PointX="7.5" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="DiplomModel.Message" Width="1.5" PointX="7.5" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DiplomModel.ProductOrService" Width="1.5" PointX="5.25" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DiplomModel.ProductTag" Width="1.5" PointX="10.5" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DiplomModel.Review" Width="1.5" PointX="5.25" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DiplomModel.Status" Width="1.5" PointX="3" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DiplomModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DiplomModel.Tag" Width="1.5" PointX="8.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DiplomModel.Trade" Width="1.5" PointX="7.5" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DiplomModel.User" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <AssociationConnector Association="DiplomModel.FK_Chat_User" ManuallyRouted="false" />
+        <AssociationConnector Association="DiplomModel.FK_Chat_User1" ManuallyRouted="false" />
+        <AssociationConnector Association="DiplomModel.FK_Message_Chat" ManuallyRouted="false" />
+        <AssociationConnector Association="DiplomModel.FK_User_City" ManuallyRouted="false" />
+        <AssociationConnector Association="DiplomModel.FK_ImageProduct_ProductOrService" ManuallyRouted="false" />
+        <AssociationConnector Association="DiplomModel.FK_Message_User" ManuallyRouted="false" />
+        <AssociationConnector Association="DiplomModel.FK_ProductOrService_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="DiplomModel.FK_ProductOrService_User" ManuallyRouted="false" />
+        <AssociationConnector Association="DiplomModel.FK_ProductTag_ProductOrService" ManuallyRouted="false" />
+        <AssociationConnector Association="DiplomModel.FK_Trade_ProductOrService" ManuallyRouted="false" />
+        <AssociationConnector Association="DiplomModel.FK_Trade_ProductOrService1" ManuallyRouted="false" />
+        <AssociationConnector Association="DiplomModel.FK_ProductTag_Tag" ManuallyRouted="false" />
+        <AssociationConnector Association="DiplomModel.FK_Review_User" ManuallyRouted="false" />
+        <AssociationConnector Association="DiplomModel.FK_Review_User1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
